@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="RaceManeger.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Class\RaceManeger.cs" />
+  </ItemGroup>
+
+</Project>
