@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RatRaceLibary
 {
-    class Bet
+    public class Bet
     {
         private int Money;
         public int money

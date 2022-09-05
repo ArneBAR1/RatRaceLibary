@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RatRaceLibary
 {
-    class SpeedShoes : IItem
+    public class SpeedShoes : IItem
     {
         public void Equip(Rat rat)
         {

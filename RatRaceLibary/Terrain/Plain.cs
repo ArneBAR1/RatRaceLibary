@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RatRaceLibary
 {
-    class Plain : Track
+    public class Plain : Track
     {
         public Plain(string name, int trackLength) : base(name, trackLength)
         {

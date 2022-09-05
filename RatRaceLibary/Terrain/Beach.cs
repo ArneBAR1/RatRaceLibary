@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RatRaceLibary
 {
-    class Beach : Track
+    public class Beach : Track
     {
         public Beach(string name, int trackLength) : base(name, trackLength)
         {

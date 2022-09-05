@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RatRaceLibary
 {
-    class Bookmaker
+    public class Bookmaker
     {
         public List<Bet> Bets = new List<Bet>();
         public List<Player> Players;

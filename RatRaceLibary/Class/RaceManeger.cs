@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace RatRaceLibary
 {
-    class RaceManager
+    public class RaceManager
     {
         //Contructor
         public List<Player> Players = new List<Player>() { };

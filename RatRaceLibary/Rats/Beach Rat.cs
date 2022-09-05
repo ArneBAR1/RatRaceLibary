@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RatRaceLibary
 {
-    class Beach_Rat : Rat
+    public class Beach_Rat : Rat
     {
         public Beach_Rat(string name, string type) : base(name, type)
         {
